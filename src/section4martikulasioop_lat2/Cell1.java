@@ -9,11 +9,11 @@ package section4martikulasioop_lat2;
  * @author Devi - BOE
  */
 public class Cell1 {
-        private String cellName;   // Name of the cell
+    private String cellName;   // Name of the cell
     private boolean isDoorOpen; // Boolean to describe whether the door is open or not
 
     // Two-argument constructor
-    public Cell1(String cellName, boolean isDoorOpen) {
+    private Cell1(String cellName, boolean isDoorOpen) {
         this.cellName = cellName;
         this.isDoorOpen = isDoorOpen;
     }
